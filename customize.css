@@ -1,0 +1,31 @@
+:root {
+  --bg-color: rgb(52, 122, 106);
+  --align-center: center;
+  --text-color: #ebe7a1;
+}
+
+header {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.form-control:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+} 
+
+.card-header {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-weight: bold;
+  text-align: var(--align-center);
+}
+
+.card-text {
+  padding: 0px;
+  text-align: var(--align-center);
+}
+
+main {
+  margin-top: 70px;
+}
